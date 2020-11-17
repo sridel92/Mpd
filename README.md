@@ -3,7 +3,7 @@ A MPD radio
 
  https://www.musicpd.org/
  
- ![IMG_0838.png](/Pict/IMG_0838.png)
+ ![01_Radio.jpeg](/Picts/01_Radio.jpeg)
 
 1- photo radio
 
