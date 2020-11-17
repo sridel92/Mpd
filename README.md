@@ -95,7 +95,30 @@ Après quelques recherche, #mark weller à parfaitement documenté ceci et donne
 
 
 
-5 - j'ajoute 
+8 - le raspberry possède une sortie audio intégrée, et nous pouvons ajouter une carte son USB. 
+
+ ![08_SoundCard.jpeg](/Picts/08_SoundCard.jpeg)
+
+
+il sera detecté par la commande "cat /proc/asound/cards "
+
+audio_output {
+        type            "alsa"
+        name            "My ALSA Device"
+#       device          "hw:0,0"        # optional
+#       mixer_type      "hardware"      # optional
+#       mixer_device    "default"       # optional
+#       mixer_control   "PCM"           # optional
+#       mixer_index     "0"             # optional
+}
+
+Mais le top sera de brancher un DAC sur un port USB, j'ai un MOJO de chez CHORD audio qui fait trés bien le job !
+
+ ![09_LCD_MOJO.jpeg](/Picts/09_LCD_MOJO.jpeg)
+
+
+
+
 
 
 
