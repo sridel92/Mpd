@@ -81,7 +81,7 @@ mpc is a command-line client for the Music Player Daemon (MPD). It connects to a
 
  ![05_LCD_simple.jpeg](/Picts/05_LCD_simple.jpeg)
 
-7 - je sèche sur le code Python pour lire le titre en cours de lecture. Après quelques recherche, #mark weller à parfaitement documenté ceci et donne un beau script très efficace
+
 
 
 http://www.markwheeler.com/wordpress/?p=557
@@ -90,7 +90,8 @@ http://www.markwheeler.com/wordpress/?p=557
 
  ![06_LCD_complete.jpeg](/Picts/06_LCD_complete.jpeg)
 
-
+Je sèchait sur le code Python pour lire le titre en cours de lecture. Je n'ai pas terminé mon MOOC Pyhton de l'univesité...
+Après quelques recherche, #mark weller à parfaitement documenté ceci et donne un beau script très efficace
 
 
 
