@@ -18,7 +18,7 @@ Ce récepteur à certainement ecouté de belles émissions sur les grandes ondes
 
 
 
-
+ ![02_Raspi.jpeg](/Picts/02_Raspi.jpeg)
 
 2 - photo carte Raspberry
 2 - le coeur de ma radio numérique sera un Raspberry 3b trouvé dans mon placard (geek hunt). j'y ajouterai MPD (Music Player Deamon) qui fera tout le travail de décodage des fichiers.
