@@ -20,9 +20,14 @@ Ce récepteur à certainement ecouté de belles émissions sur les grandes ondes
 
  ![02_Raspi.jpeg](/Picts/02_Raspi.jpeg)
 
+Le coeur de ma radio numérique sera un Raspberry 3b trouvé dans mon placard (geek hunt). J'y ajouterai MPD (Music Player Deamon) qui fera tout le travail de décodage des fichiers.
+#vintageradio
+#raspberrypi
 
-2 - le coeur de ma radio numérique sera un Raspberry 3b trouvé dans mon placard (geek hunt). j'y ajouterai MPD (Music Player Deamon) qui fera tout le travail de décodage des fichiers.
+
 à suivre... mettre le nb de post
+
+
 
 
 3 - je suis retourné sur les sites Linux afin de ré-apprendre le montage des disques sous Linux. Avec Raspberry, les disques USB sont la seule solution à ma connaissance.
@@ -58,6 +63,8 @@ mpc is a command-line client for the Music Player Daemon (MPD). It connects to a
 
 7 - je sèche sur le code Python pour lire le titre en cours de lecture. Après quelques recherche, #mark weller à parfaitement documenté ceci et donne un beau script très efficace
 
+
+http://www.markwheeler.com/wordpress/?p=557
 
 
 
