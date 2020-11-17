@@ -103,13 +103,13 @@ Après quelques recherche, #mark weller à parfaitement documenté ceci et donne
 il sera detecté par la commande "cat /proc/asound/cards "
 
 audio_output {
-        type            "alsa"
-        name            "My ALSA Device"
-#       device          "hw:0,0"        # optional
-#       mixer_type      "hardware"      # optional
-#       mixer_device    "default"       # optional
-#       mixer_control   "PCM"           # optional
-#       mixer_index     "0"             # optional
+       type            "alsa"
+       name            "My ALSA Device"
+       device          "hw:0,0"        # optional
+       mixer_type      "hardware"      # optional
+       mixer_device    "default"       # optional
+       mixer_control   "PCM"           # optional
+       mixer_index     "0"             # optional
 }
 
 Mais le top sera de brancher un DAC sur un port USB, j'ai un MOJO de chez CHORD audio qui fait trés bien le job !
