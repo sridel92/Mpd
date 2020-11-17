@@ -30,8 +30,16 @@ Le coeur de ma radio numérique sera un Raspberry 3b trouvé dans mon placard (g
 
 
 
-3 - je suis retourné sur les sites Linux afin de ré-apprendre le montage des disques sous Linux. Avec Raspberry, les disques USB sont la seule solution à ma connaissance.
-Ma collection de tote est sur un petit disque usb de 1To. Les capacité évoluent si vite. Je me souviens de mon premier PC avec un disque de 340 Mo.
+3 - je suis retourné sur les sites Linux afin de ré-apprendre le montage des disques sous Linux. Avec Raspberry, les disques USB sont la seule solution à ma connaissance. Ma collection de musique est sur un "petit" disque usb de 1To. Les capacité évoluent si vite. Je me souviens de mon premier PC avec un disque de 340 Mo. le Montage automatique du disque est documenté ici : 
+https://www.raspberrypi.org/documentation/configuration/external-storage.md
+Pensez à détecter le disque avec son numéro UUID, cela assure le montage de la façon la plus sûre.
+
+Formatage avec fdisk
+
+
+
+
+
 
 4 -
 Sauvegarder la carte micro SD. 
@@ -42,13 +50,24 @@ dd if=/dev/disk2 of=/Volumes/USB/BackupSD.dmg
 ce qui permet de conserver un backup. J'ai vu que sur les dernière version de Raspbian, une commande existe pour faire une sauvegarde régulière de la carte.
 Le mieux serait quand même de bosser sur le disque dur
 
+
+
+
+
 5 - j'ai ajouté un bouton pour éteindre le raspberry. En effet, cette carte n'en possède pas et vous devez débrancher la prise. (Apple le ferait aussi sur les ATV...)
 LA carte SD ne supportera pas cela longtemps et il vaut mieux lancer une commande "sudo halt". Ceci est fait avec le contrôle d'une broche GPIO et un petit script.
 j'ai trouvé cela ici et c'est bien documenté : https://howchoo.io/2RlyZIm
 #howchoo
 
 
+
+
+
+
 4 - installation de MPD, photo d'écoute en ligne de commande
+
+![04_MPC_teminal.mov](/Picts/04_MPC_teminal.mov)
+
 C'est facile (d'un point de vue informatique) de lire un fichier : MPC PLAY, MPC STOP, MPC NEXT ... tout est bien documenté
 
 https://www.musicpd.org/
