@@ -3,9 +3,9 @@ A MPD radio
 
  https://www.musicpd.org/
  
+ 1- Radio
+ 
  ![01_Radio.jpeg](/Picts/01_Radio.jpeg)
-
-1- photo radio
 
 J'ai trouvé ce petit poste de radio pour quelques Euros dans un bel endroit au coeur de la  Normandie. 
 Ce récepteur à certainement ecouté de belles émissions sur les grandes ondes ou petites ondes (valeur) mais de nos jours, le monde entier s'ouvre aux diffusions numériques. Il ne faut pas oublier non plus la collection d'albums numériques aux formats FLAC, OGG... (ne parlons pas du MP3)
@@ -16,11 +16,11 @@ Ce récepteur à certainement ecouté de belles émissions sur les grandes ondes
 
 
 
-
+2 - Raspberry
 
  ![02_Raspi.jpeg](/Picts/02_Raspi.jpeg)
 
-2 - photo carte Raspberry
+
 2 - le coeur de ma radio numérique sera un Raspberry 3b trouvé dans mon placard (geek hunt). j'y ajouterai MPD (Music Player Deamon) qui fera tout le travail de décodage des fichiers.
 à suivre... mettre le nb de post
 
